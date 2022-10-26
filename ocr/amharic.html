@@ -21,17 +21,23 @@
     <br></br>
     <input type="file" onchange="showFiles(event)" accept=".png, .jpg, .jpeg">
     <br></br>
-    <left>
+    <center>
     <img id='idImage' style="width: 224px; height: 224px;" align="center">
-    </left>
-   <right>
-    <img id='idImage' style="width: 224px; height: 224px;" align="center">
-    </right>
+  
+    <img id='tex' style="width: 224px; height: 224px;" align="center">
+    </center>
     <!--<div id='console'></div>-->
     <br></br>
     <center><div id="chart_div"></div></center>
     <script src="index.js"></script>
     <br></br>
+<button onclick="myFunction()">Recoginize</button>
+
+<script>
+function myFunction() {
+  document.getElementById("tex").value = "hell";
+}
+</script>
 </body>
 </div>
 <script type="text/javascript">
